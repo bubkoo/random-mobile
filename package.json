@@ -1,7 +1,7 @@
 {
   "name": "random-mobile",
   "version": "1.0.0",
-  "description": "Return a random chinese mobile phone number",
+  "description": "Return a random Chinese mobile phone number",
   "main": "index.js",
   "directories": {
     "test": "test"

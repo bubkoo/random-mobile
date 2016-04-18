@@ -1,6 +1,6 @@
 # random-mobile
 
-> Return a random chinese mobile phone number.
+> Return a random Chinese mobile phone number.
 
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/mock-end/random-mobile/blob/master/LICENSE)
