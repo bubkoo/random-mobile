@@ -1,11 +1,8 @@
 {
   "name": "random-mobile",
-  "version": "1.0.0",
-  "description": "Return a random Chinese mobile phone number.",
+  "version": "1.0.1",
+  "description": "Return a random (U.S.) mobile phone number.",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "lint": "jshint index.js",
     "pretest": "npm run lint",
@@ -21,14 +18,15 @@
   "keywords": [
     "mobile",
     "phone",
-    "generator",
-    "generate",
-    "gen",
+    "U.S.",
+    "location",
     "random",
     "randomly",
     "randomize",
-    "rand",
-    "chinese"
+    "chance",
+    "test",
+    "dice",
+    "mock"
   ],
   "license": "MIT",
   "repository": {
@@ -47,8 +45,7 @@
     "mocha": "^2.4.5"
   },
   "dependencies": {
-    "pick-item": "^1.0.1",
-    "random-natural": "^1.0.0",
-    "to-str": "^1.0.0"
+    "random-areacode": "^1.0.0",
+    "random-natural": "^1.0.2"
   }
 }

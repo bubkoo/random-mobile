@@ -1,7 +1,6 @@
 # random-mobile
 
-> Return a random Chinese mobile phone number.
-
+> Return a random (U.S.) mobile phone number.
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/mock-end/random-mobile/blob/master/LICENSE)
 
@@ -17,45 +16,25 @@ $ npm install --save random-mobile
 
 ## Usage
 
-> For more use-cases see the [tests](https://github.com/mock-end/random-mobile/blob/master/test/spec/index.js)
-
-
 ```js
-var randomMobile = require('random-mobile');
+var randomMobile = require('random-cn-mobile');
 
-// randomMobile(tsp);
+// API
+// - randomMobile();
+// - randomMobile(formatted);
 
 randomMobile();
-// => 18912345678
+// => '2617613391'
 
-randomMobile(135);
-// => 13534567890
+randomMobile(true);
+// => '267 456-1002'
 ```
 
 ## Related
 
-- [random-integral](https://github.com/mock-end/random-integral) - Generate a random integer.
-- [random-natural](https://github.com/mock-end/random-natural) - Generate a random natural number.
-- [random-decimal](https://github.com/mock-end/random-decimal) - Generate a random decimal.
-- [random-index](https://github.com/mock-end/random-index) - Generate a random array-like index.
-- [random-hexadecimal](https://github.com/mock-end/random-hexadecimal) - Generate a random hexadecimal number.
-- [random-octal](https://github.com/mock-end/random-octal) - Generate a random octal.
-- [random-unicode](https://github.com/mock-end/random-unicode) - Generate a random unicode.
-- [random-bool](https://github.com/mock-end/random-bool) - Generate a random boolean (true/false).
-- [random-char](https://github.com/mock-end/random-char) - Generate a random char.
-- [random-lorem](https://github.com/mock-end/random-lorem) - Generate a random world.
-- [random-title](https://github.com/mock-end/random-title) - Generate a random title.
-- [random-sentence](https://github.com/mock-end/random-sentence) - Generate a random sentence.
-- [random-paragraph](https://github.com/mock-end/random-paragraph) - Generate a random paragraph.
-- [random-tld](https://github.com/mock-end/random-tld) - Return a random tld.
-- [random-domains](https://github.com/mock-end/random-domains) - Generate a random domain name.
-- [random-uri](https://github.com/mock-end/random-uri.git) - Generate a random url.
-- [random-email](https://github.com/mock-end/random-email) - Generate a random email.
-- [random-lang](https://github.com/mock-end/random-lang) - Return a random language name.
-- [random-zipcode](https://github.com/mock-end/random-zipcode) - Generate a random chinese zipcode.
-- [random-ipv4](https://github.com/mock-end/random-ipv4) - Generate a random ipv4 address.
-- [random-ipv6](https://github.com/mock-end/random-ipv6) - Generate a random ipv6 address.
-- [random-color](https://github.com/mock-end/random-color) - Generate a random color.
+- [random-areacode](https://github.com/mock-end/random-areacode) - Generate a random (U.S.) area code.
+- [random-zipcode](https://github.com/mock-end/random-zipcode) - Generate a random (U.S.) zip code.
+
 
 ## Contributing
 
