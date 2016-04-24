@@ -1,7 +1,7 @@
 {
   "name": "random-mobile",
   "version": "1.0.1",
-  "description": "Return a random (U.S.) mobile phone number.",
+  "description": "Generate a random (U.S.) mobile phone number.",
   "main": "index.js",
   "scripts": {
     "lint": "jshint index.js",

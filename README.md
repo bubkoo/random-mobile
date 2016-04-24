@@ -1,6 +1,6 @@
 # random-mobile
 
-> Return a random (U.S.) mobile phone number.
+> Generate a random (U.S.) mobile phone number.
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/mock-end/random-mobile/blob/master/LICENSE)
 
