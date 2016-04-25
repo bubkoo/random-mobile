@@ -14,7 +14,7 @@ describe('random-mobile: ', function () {
         .and
         .to.have.length(10);
 
-      expect(randomMobile(true))
+      expect(randomMobile({ formatted: true }))
         .to.be.a('string')
         .and
         .to.have.length(12);

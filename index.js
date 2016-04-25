@@ -3,15 +3,20 @@
 var randomNatural  = require('random-natural');
 var randomAreaCode = require('random-areacode');
 
-module.exports = function (formatted) {
+module.exports = function (options) {
 
-  var areaCode   = randomAreaCode();
-  var exchange   = randomNatural(2, 9).toString()
-    + randomNatural(0, 9).toString()
-    + randomNatural(0, 9).toString();
-  var subscriber = randomNatural(1000, 9999).toString();
+  var areaCode = randomAreaCode();
+  var exchange = randomNatural({ min: 2, max: 9, inspected: true }).toString()
+    + randomNatural({ min: 0, max: 9, inspected: true }).toString()
+    + randomNatural({ min: 0, max: 9, inspected: true }).toString();
 
-  return formatted
+  var subscriber = randomNatural({
+    min: 1000,
+    max: 9999,
+    inspected: true
+  }).toString();
+
+  return options && options.formatted
     ? areaCode + ' ' + exchange + '-' + subscriber
     : areaCode + exchange + subscriber;
 };

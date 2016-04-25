@@ -20,13 +20,15 @@ $ npm install --save random-mobile
 var randomMobile = require('random-cn-mobile');
 
 // API
-// - randomMobile();
-// - randomMobile(formatted);
+// - randomMobile([options]);
+
+// options
+// - formatted
 
 randomMobile();
 // => '2617613391'
 
-randomMobile(true);
+randomMobile({ formatted: true });
 // => '267 456-1002'
 ```
 
